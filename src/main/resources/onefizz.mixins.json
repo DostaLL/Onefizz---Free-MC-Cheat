@@ -1,0 +1,34 @@
+{
+  "required": true,
+  "package": "com.onefizz.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerMoveAccessor",
+    "MinecraftClientAccessor",
+    "FastPlaceMixin",
+    "HitBoxMixin",
+    "BlinkMixin"
+  ],
+      "client": [
+    "MouseHandlerMixin",
+    "InventoryMoveMixin",
+    "TimerMixin",
+    "FullbrightMixin",
+    "XRayMixin",
+    "StepMixin",
+    "JesusMixin",
+    "VelocityMixin",
+    "NoSlowdownMixin",
+    "ReachMixin",
+    "TitleScreenMixin",
+    "GroundSpoofMixin",
+    "RotationMixin",
+    "KeyBindMixin",
+    "PacketInspectorMixin",
+    "NoHurtCamMixin",
+    "NoRenderFireMixin",
+    "NoRenderFogMixin",
+    "NoRenderParticlesMixin"
+  ],
+  "injectors": { "defaultRequire": 1 }
+}

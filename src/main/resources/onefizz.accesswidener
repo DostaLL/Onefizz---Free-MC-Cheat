@@ -1,0 +1,28 @@
+accessWidener	v1	named
+
+# Inner classes
+accessible	class	net/minecraft/client/render/RenderLayer$MultiPhase
+accessible	class	net/minecraft/client/render/RenderLayer$MultiPhaseParameters
+accessible	class	net/minecraft/client/render/RenderLayer$MultiPhaseParameters$Builder
+accessible	class	net/minecraft/client/render/RenderPhase$LineWidth
+accessible	class	net/minecraft/client/render/RenderPhase$ShaderProgram
+accessible	class	net/minecraft/client/render/RenderPhase$Layering
+accessible	class	net/minecraft/client/render/RenderPhase$Transparency
+accessible	class	net/minecraft/client/render/RenderPhase$Target
+accessible	class	net/minecraft/client/render/RenderPhase$WriteMaskState
+accessible	class	net/minecraft/client/render/RenderPhase$Cull
+accessible	class	net/minecraft/client/render/RenderPhase$DepthTest
+
+# Method to construct render layers
+accessible	method	net/minecraft/client/render/RenderLayer	of	(Ljava/lang/String;Lnet/minecraft/client/render/VertexFormat;Lnet/minecraft/client/render/VertexFormat$DrawMode;IZZLnet/minecraft/client/render/RenderLayer$MultiPhaseParameters;)Lnet/minecraft/client/render/RenderLayer$MultiPhase;
+
+# Static fields used to build parameters
+accessible	field	net/minecraft/client/render/RenderPhase	LINES_PROGRAM	Lnet/minecraft/client/render/RenderPhase$ShaderProgram;
+accessible	field	net/minecraft/client/render/RenderPhase	COLOR_PROGRAM	Lnet/minecraft/client/render/RenderPhase$ShaderProgram;
+accessible	field	net/minecraft/client/render/RenderPhase	VIEW_OFFSET_Z_LAYERING	Lnet/minecraft/client/render/RenderPhase$Layering;
+accessible	field	net/minecraft/client/render/RenderPhase	TRANSLUCENT_TRANSPARENCY	Lnet/minecraft/client/render/RenderPhase$Transparency;
+accessible	field	net/minecraft/client/render/RenderPhase	ITEM_ENTITY_TARGET	Lnet/minecraft/client/render/RenderPhase$Target;
+accessible	field	net/minecraft/client/render/RenderPhase	ALL_MASK	Lnet/minecraft/client/render/RenderPhase$WriteMaskState;
+accessible	field	net/minecraft/client/render/RenderPhase	COLOR_MASK	Lnet/minecraft/client/render/RenderPhase$WriteMaskState;
+accessible	field	net/minecraft/client/render/RenderPhase	DISABLE_CULLING	Lnet/minecraft/client/render/RenderPhase$Cull;
+accessible	field	net/minecraft/client/render/RenderPhase	ALWAYS_DEPTH_TEST	Lnet/minecraft/client/render/RenderPhase$DepthTest;

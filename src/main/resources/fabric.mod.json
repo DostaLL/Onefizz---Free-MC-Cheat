@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "onefizz",
+  "version": "${version}",
+  "name": "OneFizz",
+  "description": "OneFizz client mod",
+  "authors": ["OneFizz"],
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.onefizz.OneFizzMod"]
+  },
+  "mixins": ["onefizz.mixins.json"],
+  "accessWidener": "onefizz.accesswidener",
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "~1.21"
+  }
+}
